@@ -4,12 +4,51 @@
     <title>SecondApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <div class = "collapse navbar-collapse" id = "navbarColor02">
+    <ul class = "navbar-nav mr-auto">
+      <li class = "elemento de navegación activo">
+        <a class="nav-link" href="http://localhost:3000/pages/landing"> <font style = "vertical-align: inherit;"> <font style = "vertical-align: inherit;"> Mails </font> </font> <span class = "sr-only"> <font style = "vertical-align: inherit;"> <font style = "vertical-align: inherit;"> (actual) </font> </font> </ span > </a>
+      </li>
+
+      <li class = "nav-item">
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="http://localhost:3000/students"> <font style = "vertical-align: inherit;"> <font style = "vertical-align: inherit;"> Students </font> </ font > </a>
+      </li>
+    </ul>
+
+  </div>
+
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-D9XILkoivXN+bcvB2kSOowkIvIcBbNdoDQvfBNsxYAIieZbx8/SI4NeUvrRGCpDi" crossorigin="anonymous">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
+
+
+
     <%= yield %>
   </body>
 </html>

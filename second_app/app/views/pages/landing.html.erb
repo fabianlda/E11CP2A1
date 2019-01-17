@@ -1,0 +1,18 @@
+<div class="container">
+  <h1> Students info</h1>
+
+  <div class="col-md-3">
+
+      <% @students = ['Ragnar', 'Bjorn', 'Ubbe', 'Ivar', 'Sigurd']%>
+      <% @students.each do |student| %>
+       <h1><%= student  %></h1>
+      <% end %>
+
+  </div>
+    <div class="col-md-9">
+      <% @mail = ['Ragnar@vikings.com', 'Bjorn@vikings.com', 'Ubbe@vikings.com', 'Ivar@vikings.com', 'Sigurd@vikings.com']%>
+      <% @mail.each do |email| %>
+      <h1> <%= email %> </h1>
+      <% end %>
+    </div>
+</div>
